@@ -92,3 +92,4 @@ D. Ada Lovelace ''')
 prize=questions(amount)
 print('\nAap ki Dhanrashi💰',prize)
 #amount=amount+prize   
+
