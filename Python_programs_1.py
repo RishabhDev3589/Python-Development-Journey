@@ -58,7 +58,7 @@ print(a==b , a!=b , a<b , a>b , a<=b , a>=b)
 
 # IMP-> Relational Operator Always return Boolean Value
 
-# Assignment Operator(=,+=,-=,*=,/=,%=,**=)
+# 3.Assignment Operator(=,+=,-=,*=,/=,%=,**=)
 num=10 # yaha par ham num ko 10 assign kar rahey hai
 print("Assign = num:",num)
 
@@ -80,7 +80,7 @@ print("Power = num:",num)
 num%=10 # num ko jab 10 divide kareygey tab remainder kya hoga wo deyga
 print("Modulo = num:",num)
 
-#Logical Operator(not,and,or)
+# 4.Logical Operator(not,and,or)
 
 #not operator (it's work on single operand) {it reverse the value}
 x=True
@@ -97,6 +97,7 @@ print("AND operator: ",val1 and val2)
 val1=True
 val2=False
 print("OR operator: ",val1 or val2)
+
 
 
 
