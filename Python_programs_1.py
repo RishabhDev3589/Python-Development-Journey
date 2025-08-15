@@ -1,3 +1,12 @@
+# Summary of Sequence:-
+'''1.Basic print statements
+   2.Primary data types (Integer, String, Float, Boolean, None)
+   3.Type detection using type()
+   4.Comments in Python
+   5.Types of operators (Arithmetic, Relational, Assignment, Logical)
+   6.Type Conversion and Type Casting
+   7.User Input handling
+'''
 print("JBMNMJ")
 print('HELLO WORLD')
 
@@ -128,6 +137,7 @@ print(type(o))
 # for example:-
 p=input("Enter the value: ")
 print(type(p))
+
 
 
 
