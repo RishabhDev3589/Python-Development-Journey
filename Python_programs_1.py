@@ -49,7 +49,54 @@ print(A+B , A-B , A*B , A/B , A%B , A**B)
 # IMP-> **(a to the power b)
 # % (it gives Reminder)
 # In Python if we divide 2 value we always get a value in floating
- 
-# 2.Relational/Comparison Operators(==,!=,>,<,<=,>=)
 
-# Assignment Operator(=)
+# 2.Relational/Comparison Operators(==,!=,>,<,<=,>=)
+a=20
+b=30
+print(a==b , a!=b , a<b , a>b , a<=b , a>=b)
+#Output->(False True True False True False)
+
+# IMP-> Relational Operator Always return Boolean Value
+
+# Assignment Operator(=,+=,-=,*=,/=,%=,**=)
+num=10 # yaha par ham num ko 10 assign kar rahey hai
+print("Assign = num:",num)
+
+num+=10 # num mey 10 add kar do
+print("Addition = num:",num)
+
+num-=10 # num mey 10 subtract kar do
+print("Subtract = num:",num)
+
+num*=10 # num ko 10 sey multiply kar do
+print("Multiply = num:",num)
+
+num/=10 # num  ko 10 sey divide kar do  
+print("Divide = num:",num)
+
+num**=10 # num to the power 10 kar keuy do
+print("Power = num:",num) 
+
+num%=10 # num ko jab 10 divide kareygey tab remainder kya hoga wo deyga
+print("Modulo = num:",num)
+
+#Logical Operator(not,and,or)
+
+#not operator (it's work on single operand) {it reverse the value}
+x=True
+print(not x)
+y=False
+print(not y)
+
+#and operator (it's work on double operand) {It return true value only when both the value is true}
+val1=True
+val2=True
+print("AND operator: ",val1 and val2)
+
+#or operator {dono mey sey yadi koi ek bhi value True hai toh True nahi toh False}
+val1=True
+val2=False
+print("OR operator: ",val1 or val2)
+
+
+
