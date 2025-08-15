@@ -7,6 +7,7 @@
    6.Type Conversion and Type Casting
    7.User Input handling
 '''
+# Python is made by Guido van Russom in 1991.
 print("JBMNMJ")
 print('HELLO WORLD')
 
@@ -137,7 +138,6 @@ print(type(o))
 # for example:-
 p=input("Enter the value: ")
 print(type(p))
-
 
 
 
