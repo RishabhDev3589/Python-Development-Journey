@@ -98,6 +98,36 @@ val1=True
 val2=False
 print("OR operator: ",val1 or val2)
 
+# Type Conversion And Type Casting ->
+
+# *IMP-> type conversion is automatically done by python interpeter on the basis of Supremum precedency of datatype
+# for example :-
+a=12
+b=18.98
+print(a+b) # here the a is converted into float value and then give the output of sum.
+
+u='12'
+v=18.98
+# print(u+v) (here error throw because we add str and float which is wrong instruction)
+# So we try to convert the datatype of u into int so the output gives right value
+# Here we Indroduce the topic of Type Casting Where we forcefully convert the datatype
+
+u=int(u)
+print(type(u))
+print(u+v) # here it gives perfect output
+
+# Input In Python
+ 
+o=int(input("Enter your value: "))
+print(type(o))
+# we always declare the datatype of upcoming user input value 
+# It's not important to declare the datatype 
+# if we not declare it python store the upcoming value in string form  
+ 
+# for example:-
+p=input("Enter the value: ")
+print(type(p))
+
 
 
 
