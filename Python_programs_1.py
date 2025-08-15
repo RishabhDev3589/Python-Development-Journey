@@ -117,7 +117,8 @@ print(type(u))
 print(u+v) # here it gives perfect output
 
 # Input In Python
- 
+# Input using input Statement-> input()
+
 o=int(input("Enter your value: "))
 print(type(o))
 # we always declare the datatype of upcoming user input value 
@@ -127,6 +128,7 @@ print(type(o))
 # for example:-
 p=input("Enter the value: ")
 print(type(p))
+
 
 
 
