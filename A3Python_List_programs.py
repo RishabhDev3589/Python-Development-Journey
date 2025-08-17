@@ -110,5 +110,6 @@ print(lists)
   ◾ pop(index) – Remove element by index
 '''
 # I know there is a multiple methods in python for list but i explain only imp. method which is use generally and mostly  
-# for more knowledge go the Python Documentation
+# for more knowledge go through the Python Documentation
+
 
