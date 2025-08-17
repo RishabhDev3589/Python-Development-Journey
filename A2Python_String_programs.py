@@ -8,7 +8,6 @@ name2="Rishabh"
 name3='''Rishabh'''
 print(name1,name2,name3)
 
-
 # escape sequence characters:-
 # 1.\n -> it's use for nextline command
 # 2.\t -> it's use for take a space of tab 
@@ -171,3 +170,4 @@ print(str1.title()) # It capitalizes each letter of the word within the string.
 #Output-> Welcome To The Console!!!
 
 # ---It's All About String & it's Operation In Python--- 
+
