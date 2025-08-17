@@ -12,7 +12,7 @@ print("JBMNMJ")
 ✅ Built-in tuple methods: 1.count() 2.index()
 ✅ Difference between tuples and lists'''
 
-# 2.Tuples in Python->
+#💡2.Tuples in Python->
 
 # it's a build-in datatype that gives freedom to create immutable sequences of values
 # it can store elements of different primitive datatypes(like integer,float,String,boolean)
@@ -20,7 +20,7 @@ print("JBMNMJ")
 # In Python, tuples are immutable sequences — that means once you create a tuple, you can't change its content (no adding, removing, or modifying elements). 
 # Tuples are created using parentheses ().
 
-#Syntax of tuples creation-> name_of_tuple=[elements]---here elements are differentiate by "," 
+#💡Syntax of tuples creation-> name_of_tuple=[elements]---here elements are differentiate by "," 
 tup=("Rishabh",19,94.5,True)
 print(tup)
 #Output-> ('Rishabh', 19, 94.5, True)
@@ -41,7 +41,7 @@ print(tup)
 # print(tup[5]) here it's throw error
 #Output-> IndexError: tuple index out of range
 
-# Looping through a tuple
+#💡Looping through a tuple
 t = ("a", "b", "c")
 for item in t:
     print(item)
@@ -50,14 +50,14 @@ for item in t:
              c
 '''
 
-# Check existence
+#💡Check existence
 t = ("apple", "banana", "cherry")
 print("banana" in t)  
 #Output-> True
 print("mango" in t)   
 #Output-> False 
 
-# In Python tuple-Slicing is possible. It's Similar Like a String,list Slicing
+#💡In Python tuple-Slicing is possible. It's Similar Like a String,list Slicing
 
 print(tup[0:2]) # here also 0 is included & 2 is excluded          ---{Positive Slicing}
 #Output-> ('Rishi', 19)
@@ -74,7 +74,7 @@ list=["Rishabh",19,94.5,True]
 '''
 
 # In tuples if you want to make a single element tuple then always use "," at the end for showing that it's is tuple
-# for ex.->
+#💡for ex.->
 tup1=(87)
 print(type(tup1))
 #Output-> <class 'int'> 
@@ -85,14 +85,14 @@ print(type(tup2))
 #Output-> <class 'tuple'> 
 # So in this way you can declare a single element tuple in python
 
-# tuple Methods->
+#💡tuple Methods->
 tup=(2,1,3,1)
 
-# 1.tup.index(element) # it returns index of first occurrence of the given value
+#💡1.tup.index(element) # it returns index of first occurrence of the given value
 print(tup.index(1)) # here it return the index of 1 at first occurrence in the tuple
 #Output-> 1
 
-# 2.tup.count(element) # it return the count of total occurrence in the tuple
+#💡2.tup.count(element) # it return the count of total occurrence in the tuple
 print(tup.count(1))
 #Output-> 2
 
@@ -102,4 +102,5 @@ print(tup.count(1))
 1.count()
 2.index()
 Inke alawa aur koi method nahi hota tuple ke liye.'''
-# for more knowledge go the Python Documentation
+# for more knowledge go through the Python Documentation
+
