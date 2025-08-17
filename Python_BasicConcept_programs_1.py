@@ -1,4 +1,5 @@
 # Summary of Sequence:-
+
 '''1.Basic print statements
    2.Primary data types (Integer, String, Float, Boolean, None)
    3.Type detection using type()
