@@ -31,20 +31,21 @@ Here, you'll find clear explanations, practical code examples, and interesting p
 This repository is designed to grow with you. Here's a glimpse of the current structure and what to expect in the future:
 
 
-├── A1Python_BasicConcept_programs.py
-├── A2Python_String_programs.py
-├── A3Python_List_programs.py
-├── A4Python_Tuples_programs.py
-├── Basic_Calculator.py
-├── Calculator_Matchcase.py
-├── KBC_quizgame.py
-├── README.md
-└── (More folders will be added)
-├── Basics/
-├── DataStructures/
-├── OOP/
-├── Advanced/
-└── Projects/
+├── A1Python_BasicConcept_programs.py  
+├── A2Python_String_programs.py  
+├── A3Python_List_programs.py  
+├── A4Python_Tuples_programs.py  
+├── A5Python_Dictionary_programs.py  
+├── Basic_Calculator.py  
+├── Calculator_Matchcase.py  
+├── KBC_quizgame.py  
+├── README.md  
+└── (More folders will be added)  
+├── Basics/  
+├── DataStructures/  
+├── OOP/  
+├── Advanced/  
+└── Projects/  
 
 -   **Basics:** Fundamental Python concepts like variables, data types, loops, and functions.
 -   **Data Structures:** In-depth exploration of lists, tuples, dictionaries, sets, etc.
