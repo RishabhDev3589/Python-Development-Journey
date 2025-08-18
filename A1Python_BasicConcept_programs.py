@@ -1,58 +1,58 @@
-# Summary of Sequence:-
+print("JBMNMJ")
 
-'''1.Basic print statements
-   2.Primary data types (Integer, String, Float, Boolean, None)
-   3.Type detection using type()
-   4.Comments in Python
-   5.Types of operators (Arithmetic, Relational, Assignment, Logical)
-   6.Type Conversion and Type Casting
-   7.User Input handling
+#🔍Summary of Sequence:-
+'''✅1.Basic print statements
+   ✅2.Primary data types (Integer, String, Float, Boolean, None)
+   ✅3.Type detection using type()
+   ✅4.Comments in Python
+   ✅5.Types of operators (Arithmetic, Relational, Assignment, Logical)
+   ✅6.Type Conversion and Type Casting
+   ✅7.User Input handling
 '''
 # Python is made by Guido van Russom in 1991.
-print("JBMNMJ")
 print('HELLO WORLD')
 
-#There are 5 Primary Datatype in Python :
+#💡There are 5 Primary Datatype in Python :
 
-# 1.Integer (+ve,-ve,0) {Whole Values}
+#💡1.Integer (+ve,-ve,0) {Whole Values}
 age1=18
 age2=-18
 age3=0
 
-# 2.String {Sentence,Mix-up of words/values} (' '," ",''' ''')<-3 Way to put the value on string
+#💡2.String {Sentence,Mix-up of words/values} (' '," ",''' ''')<-3 Way to put the value on string
 name1='Rishabh'
 name2="Rishabh"
 name3='''Rishabh'''
 print(name1,name2,name3)
 
-# 3.Float(Decimal Values)
+#💡3.Float(Decimal Values)
 price=29.88
 
-# 4.Boolean (True,False) *(T,F are in capital letter)
+#💡4.Boolean (True,False) *(T,F are in capital letter)
 moonsoon=True
 summer=False
 
-# 5.None (Jis mey hamey koi bhi value abhi put nahi karna hai ussmey ham none put kar deytey hai ) *(N are in capital letter)
+#💡5.None (Jis mey hamey koi bhi value abhi put nahi karna hai ussmey ham none put kar deytey hai ) *(N are in capital letter)
 a=None
 
-#datatype detection by Python:-
+#💡datatype detection by Python:-
 print(type(age1))
 print(type(name1))
 print(type(price))
 print(type(moonsoon))
 print(type(a))
 
-#Python is case-sensitive language (A,a both are different)
+#💡Python is case-sensitive language (A,a both are different)
 
-#Comments on Python->
+#💡Comments on Python->
 # 1.Single-Line comment
 ''' 2.Multi-Line comment'''
 
-#Types of Operators in Python->
+#💡Types of Operators in Python->
 
 # a+b-> (Here a,b is a Operand & + is a Operator )
 
-# 1.Arithmetic Operators (+,-,*,/,**,%)
+#💡1.Arithmetic Operators (+,-,*,/,**,%)
 A=5
 B=8
 print(A+B , A-B , A*B , A/B , A%B , A**B)
@@ -61,7 +61,7 @@ print(A+B , A-B , A*B , A/B , A%B , A**B)
 # % (it gives Reminder)
 # In Python if we divide 2 value we always get a value in floating
 
-# 2.Relational/Comparison Operators(==,!=,>,<,<=,>=)
+#💡2.Relational/Comparison Operators(==,!=,>,<,<=,>=)
 a=20
 b=30
 print(a==b , a!=b , a<b , a>b , a<=b , a>=b)
@@ -69,7 +69,7 @@ print(a==b , a!=b , a<b , a>b , a<=b , a>=b)
 
 # IMP-> Relational Operator Always return Boolean Value
 
-# 3.Assignment Operator(=,+=,-=,*=,/=,%=,**=)
+#💡3.Assignment Operator(=,+=,-=,*=,/=,%=,**=)
 num=10 # yaha par ham num ko 10 assign kar rahey hai
 print("Assign = num:",num)
 
@@ -91,7 +91,7 @@ print("Power = num:",num)
 num%=10 # num ko jab 10 divide kareygey tab remainder kya hoga wo deyga
 print("Modulo = num:",num)
 
-# 4.Logical Operator(not,and,or)
+#💡4.Logical Operator(not,and,or)
 
 #not operator (it's work on single operand) {it reverse the value}
 x=True
@@ -109,7 +109,7 @@ val1=True
 val2=False
 print("OR operator: ",val1 or val2)
 
-# Type Conversion And Type Casting ->
+#💡Type Conversion And Type Casting ->
 
 # *IMP-> type conversion is automatically done by python interpeter on the basis of Supremum precedency of datatype
 # for example :-
@@ -127,7 +127,7 @@ u=int(u)
 print(type(u))
 print(u+v) # here it gives perfect output
 
-# Input In Python
+#💡Input In Python
 # Input using input Statement-> input()
 
 o=int(input("Enter your value: "))
@@ -139,6 +139,7 @@ print(type(o))
 # for example:-
 p=input("Enter the value: ")
 print(type(p))
+
 
 
 
