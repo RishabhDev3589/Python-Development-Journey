@@ -37,6 +37,7 @@ This repository is designed to grow with you. Here's a glimpse of the current st
 ├── A4Python_Tuples_programs.py  
 ├── A5Python_Dictionary_programs.py  
 ├── A6Python_Sets_programs.py
+├── A8_Python_Loops_programs.py
 ├── Basic_Calculator.py  
 ├── Calculator_Matchcase.py  
 ├── KBC_quizgame.py  
