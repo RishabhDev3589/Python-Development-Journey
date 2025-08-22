@@ -140,6 +140,7 @@ print(type(o))
 p=input("Enter the value: ")
 print(type(p))
 
+# for more knowledge go through the Python Documentation
 
 
 
