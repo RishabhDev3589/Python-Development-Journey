@@ -134,9 +134,14 @@ print(lists.count(2))  # Output:3
   ◾ insert(index, value) – Insert at specific index
   ◾ remove(value) – Remove first occurrence
   ◾ pop(index) – Remove element by index
+  ◾ extend(iterable) – Add multiple elements from another iterable (like list, tuple) to the end of the list  
+  ◾ clear() – Remove all elements from the list  
+  ◾ index(value) – Return the first index where the specified value is found  
+  ◾ count(value) – Return the number of times the specified value appears in the list  
 '''
 # I know there is a multiple methods in python for list but i explain only imp. method which is use generally and mostly  
 # for more knowledge go through the Python Documentation
+
 
 
 
