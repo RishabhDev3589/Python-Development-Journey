@@ -103,7 +103,7 @@ print(capital.capitalize())
 
 #💡7.Center Method-> center()
 str1="Welcome to the Console!!!"
-print(str1.center(150)) # yaha par str1 ki length 25 hai aur 150 extra add hoga jissey content center mey aa jaye gaa
+print(str1.center(150)) # str1.center(150) pads the string to make total length = 150
 #Output->                                             Welcome to the Console!!!
 
 #💡8.count Method-> count()
@@ -170,8 +170,30 @@ print(str1.swapcase()) # It changes the character casing of the string
 print(str1.title()) # It capitalizes each letter of the word within the string.
 #Output-> Welcome To The Console!!!
 
+#💡String Concatenation using '+'
+str1 = "Hello"
+str2 = "World"
+print(str1 + " " + str2)  # Output: Hello World
+
+#💡String Repetition using '*'
+print(str1 * 3)  # Output: HelloHelloHello
+
+#💡String Formatting (3 ways)
+name = "Rishi"
+age = 21
+
+# 1. Traditional
+print("My name is", name, "and I'm", age, "years old.")
+
+# 2. Using .format()
+print("My name is {} and I'm {} years old.".format(name, age))
+
+# 3. Using f-string
+print(f"My name is {name} and I'm {age} years old.")
+
 # ---It's All About String & it's Operation In Python--- 
 
 # for more knowledge go through the Python Documentation
+
 
 
