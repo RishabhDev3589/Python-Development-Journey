@@ -101,6 +101,32 @@ lists.pop(2) # ye directly uss index par jaakey value ko delete karta hai
 print(lists) 
 #Output-> [1, 2, 4] 
 
+#💡8. list.extend(iterable) – adds multiple elements to list
+
+a = [1, 2]
+b = [3, 4]
+a.append(b)     # List inside a list
+print("Using append:", a)  
+# Output: [1, 2, [3, 4]]
+
+a = [1, 2]
+a.extend(b)     # Elements unpacked into list
+print("Using extend:", a)  
+# Output: [1, 2, 3, 4]
+
+#💡9. list.clear() – Removes all items
+lists = [1, 2, 3]
+lists.clear()
+print(lists)  # Output: []
+
+#💡10. list.index(value) – First index of the value
+lists = [10, 20, 30]
+print(lists.index(20))  # Output: 1
+
+#💡11. list.count(value) – Count of a value
+lists = [1, 2, 2, 3, 2]
+print(lists.count(2))  # Output:3
+
 '''Summarize the List Methods
   ◾ append() – Add element to end
   ◾ sort() & sort(reverse=True) – Sorting in ascending/descending
@@ -111,5 +137,6 @@ print(lists)
 '''
 # I know there is a multiple methods in python for list but i explain only imp. method which is use generally and mostly  
 # for more knowledge go through the Python Documentation
+
 
 
