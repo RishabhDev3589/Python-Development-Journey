@@ -20,7 +20,7 @@ print("JBMNMJ")
 # In Python, tuples are immutable sequences — that means once you create a tuple, you can't change its content (no adding, removing, or modifying elements). 
 # Tuples are created using parentheses ().
 
-#💡Syntax of tuples creation-> name_of_tuple=[elements]---here elements are differentiate by "," 
+#💡Syntax of tuples creation-> name_of_tuple=(elements)---here elements are differentiate by "," 
 tup=("Rishabh",19,94.5,True)
 print(tup)
 #Output-> ('Rishabh', 19, 94.5, True)
@@ -99,8 +99,9 @@ print(tup.count(1))
 
 # I know it"s look similar as list and their properties but their is slightly difference because list is mutable & tuple is immutable in python
 '''Python tuple ke officially sirf 2 hi built-in methods hote hain:
-1.count()
-2.index()
+◾ count(value) – Returns the number of times the value occurs
+◾ index(value) – Returns the first index of the given value
 Inke alawa aur koi method nahi hota tuple ke liye.'''
 # for more knowledge go through the Python Documentation
+
 
