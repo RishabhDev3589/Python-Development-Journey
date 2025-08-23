@@ -97,7 +97,7 @@ print(len(sets))
 #💡4.set.pop()               # removes a random value from the set
 st={1,2,5,8,9}
 print(st.pop())
-#Output-> 1
+#Output-> (any random element from the set, e.g., 1 or 2 or 5...)
 print(st)
 #Output-> {2, 5, 8, 9}
 
@@ -116,6 +116,25 @@ print(set1.intersection(set2))
 #Output-> {9, 3}
 
 # In both of them set1 & set2 doesn't change.
+
+#💡7.set.discard() method     #Same as .remove(), but doesn't throw an error if the element is not found.
+sets = {1, 2, 3}
+sets.discard(4)  # ✅ No error even though 4 is not in the set
+print(sets)
+# Output → {1, 2, 3}
+
+#💡8.set.difference() method  #Returns elements present only in the first set, not the second.
+A = {1, 2, 3, 4}
+B = {3, 4, 5}
+print(A.difference(B))
+# Output → {1, 2}
+
+#💡9.set.issubset() and set.issuperset()    #Check relationships between two sets.
+A = {1, 2}
+B = {1, 2, 3}
+print(A.issubset(B))    # Output → True
+print(B.issuperset(A))  # Output → True
+
 '''
 🧠 Summarization of Set Methods->
 
@@ -130,6 +149,11 @@ print(set1.intersection(set2))
 4 .pop() → Removes and returns a random element from the set
 5 .union(other_set) → Returns a new set containing all elements from both sets (removes duplicates)
 6 .intersection(other_set) → Returns a new set with only elements common to both sets
+7 . discard(element) → Removes element; ✅ no error if not found
+8 . difference(other_set) → Elements in first set but not in second
+9 . issubset(other_set) → True if all elements of first set are in second
+10 . issuperset(other_set) → True if all elements of second set are in first
 '''
 
 # for more knowledge go through the Python Documentation
+
